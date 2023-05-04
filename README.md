@@ -1,6 +1,7 @@
 # RedditPushshiftAPI-DataCollection
 
-Introduction:
+## Introduction:
+This program is intended to search though Reddit for post submissions by a keyword specification. The program utalizes the Pushshift API and the API wrapper pmaw for data collection. The program also allows for specifying data results by a time period.
 
 ## Using this program for Pushshift API for data collection:
 
