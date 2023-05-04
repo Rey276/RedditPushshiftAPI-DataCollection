@@ -11,7 +11,7 @@ This program is intended to search though Reddit for post submissions by a keywo
 - Download the file labled main.py in this repository and open it with an IDE
 
 ### 2.) Changing main.py for specified data collection:
-- line 17: keyword = "** INSERT WORD/PHRASE YOU WOULD LIKE TO SEARCH REDDIT POSTS FOR **"
+- line 17: keyword = "* * INSERT WORD/PHRASE YOU WOULD LIKE TO SEARCH REDDIT POSTS FOR * *"
 - line 18: start_time = int(dt.datetime(**INSERT START YEAR**, **INSERT START MONTH**, **INSERT START DAY**).timestamp())
 - line 19: end_time = int(dt.datetime(**INSERT END YEAR**, **INSERT END MONTH**, **INSERT END DAY**).timestamp())
 - line 20: limit = **ENTER NUMBER OF ENTRIES YOU WOULD LIKE TO RECIVE**
