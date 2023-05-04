@@ -3,6 +3,7 @@
 Introduction:
 
 Using this program for Pushshift API for data collection:
+
 1.) Installations:
 - Install pmaw, pandas and datetime packages in terminal(MacOS) or command prompt(Windows)
 - Download an Python IDE (recomended: PyCharm) to run the program on (note: The program can also be run on terminal or command prompt)
