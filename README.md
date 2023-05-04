@@ -3,7 +3,7 @@
 ## Introduction:
 This program is intended to search though Reddit for post submissions by a keyword specification. The program utalizes the Pushshift API and the API wrapper pmaw for data collection. The program also allows for specifying data results by a time period.
 
-## Using this program for Pushshift API for data collection:
+## Using this program for data collection:
 
 ### 1.) Installations:
 - Install pmaw, pandas and datetime packages in terminal(MacOS) or command prompt(Windows)
