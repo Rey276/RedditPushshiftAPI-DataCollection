@@ -16,6 +16,7 @@ submissionCollection.py
 - line 18: start_time = int(dt.datetime(* *INSERT START YEAR* *, * *INSERT START MONTH* *, * *INSERT START DAY* *).timestamp())
 - line 19: end_time = int(dt.datetime(* *INSERT END YEAR* *, * *INSERT END MONTH* *, * *INSERT END DAY* *).timestamp())
 - line 20: limit = * *ENTER NUMBER OF ENTRIES YOU WOULD LIKE TO RECIVE* *
+
 commentCollection.py
 - line 21: id_list = ["* *INSERT LIST OF SUBMISSION IDS* *"]
 
