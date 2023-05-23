@@ -20,7 +20,7 @@ def main():
     try:
         id_list = ["tjoppi","tjx71z","tk97gn","tktz86","tkw5dl"]
         for i in id_list:
-            print("in")
+            print(i + " is completed")
             comment_list = []
             submission = reddit.submission(i)
             submission.comments.replace_more(limit=None)
