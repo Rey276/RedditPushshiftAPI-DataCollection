@@ -20,7 +20,7 @@ def main():
     try:
         id_list = ["tjoppi","tjx71z","tk97gn","tktz86","tkw5dl"]
         for i in id_list:
-            print(i + " is completed")
+            print(i + " is started")                        #indicates start of the subission id processing
             comment_list = []
             submission = reddit.submission(i)
             submission.comments.replace_more(limit=None)
@@ -28,6 +28,7 @@ def main():
                 comment_list.append(comment.__dict__)
             comments_df = pd.DataFrame(comment_list)
             comments_df.to_csv(f'dataset_{i}_comments.csv')
+            print(i + " is completed")                      #indicates end of the subission id processing
     except:
         print("An exception occurred")
 
